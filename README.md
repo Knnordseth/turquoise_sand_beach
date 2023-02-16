@@ -2,3 +2,6 @@
 # White-Sand-Beach
 
 Turquoise sandy beach
+
+Meny webside for strandkafeene
+Strandkafeene ønsker å ha egne nettsider der de kan legge ut dagens meny og informasjon om evt arrangementer i regi av strandkafeen (f.eks. live musikk, volleyballturnering). De ansatte ved strandkafeen har ikke kompetanse til å lage og vedlikeholde en slik nettside selv, så de ønsker seg et brukergrensesnitt der de kan skrive inn menyen (f.eks.) tre forretter, tre hovedretter og tre desserter) og de neste arrangementene, og publisere dette på kafeens nettside uten å måtte gå inn i koden eller databasen selv. Du skal utvikle nettsiden til en kafe og brukergrensesnittet for de ansatte. Du trenger ikke tenke på sikkerhet i denne oppgaven, så ansatte-siden trenger ikke innlogging.

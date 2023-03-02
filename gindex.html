@@ -13,10 +13,33 @@
     <h1 id="h1">Hello world</h1>
     <h1 id="h1">Hello world</h1>
     <h1 id="h1">Hello world</h1>
-    
 
-    <script src="script.js">                                                       </script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js">       </script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"> </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+        import { getFirestore } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore.js"
+      
+        // Your web app's Firebase configuration
+        // NB! HER KOMMER DINE UNIKE KODER
+        const firebaseConfig = {
+        apiKey: "AIzaSyCrCsxxIIYTUpF8uJ12a49UTsDx9KIrbtU",
+        authDomain: "white-sand-beach.firebaseapp.com",
+        projectId: "white-sand-beach",
+        storageBucket: "white-sand-beach.appspot.com",
+        messagingSenderId: "195541876312",
+        appId: "1:195541876312:web:9c2e5805b988c51071542d",
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        const db = getFirestore();
+      </script>
+
+    <script src="/script.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js">       </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"> </script> -->
 </body>
 </html>
